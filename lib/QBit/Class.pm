@@ -158,13 +158,6 @@ sub _ro_accessor {
 sub __abstract__ {
     my ($class, $method) = @_;
 
-    package DB;
-    use qbit;
-
-    my @caller = caller(1);
-
-    my $package = ref($DB::args[0]) || $DB::args[0];
-
     throw gettext("Abstract method: %s", $method);
 }
 
