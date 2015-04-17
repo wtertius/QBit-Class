@@ -1,4 +1,4 @@
-libqbit-class-perl (0.2) raring; urgency=low
+libtertiusqbit-class-perl (0.2) raring; urgency=low
 
   * Fixed build dependses
 
