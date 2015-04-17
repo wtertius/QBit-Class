@@ -1,3 +1,15 @@
+libtertiusqbit-class-perl (0.3) raring; urgency=low
+
+  * Rename debian package
+
+  * Fix .gitignore dzil release dir.
+
+  * Removed useless code
+
+  * Small fixes
+
+ -- Dmitry Lukiyanchuk <tertius@yandex-team.ru>  Fri, 17 Apr 2015 16:41:08 +0300
+
 libtertiusqbit-class-perl (0.2) raring; urgency=low
 
   * Fixed build dependses
